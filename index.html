@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+<title>Sagar Hansalia</title>
+<meta charset="utf-8">
+<link href="websiteStylesheet.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+<header><h1>Welcome to my Website!</h1></header>
+<nav><a href="resumeFinal.docx">Resume</a> &nbsp; <a href="https://github.com/sagarhansalia" a target="_blank">GitHub</a>  &nbsp; <a href="https://www.linkedin.com/in/sagar-hansalia-46361ba8/" a target="_blank">LinkedIn</a></nav>
+
+<div id="bannerImg">
+<img class = "mySlides sh-animate-fading" src="codingImage.jpg" width=100% height="50%">
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+
+<div id= "intro">
+<p><center>Hello! My name is Sagar Hansalia and I'm a current senior at Georgia Gwinnett College with a major in Information Technology. I graduate in May 2018 and am very interested and eager to see what lies ahead! Please view my GitHub and LinkedIn pages to view my skills and projects and click on 'Resume' to view my current CV!</center></p>
+<p><b><center>My objective is to work as hard as I can, all while promoting communication and enthusiasm in the workplace</center></b></p>
+  <div id="contact">
+  <br>
+  </div>
+</div>
+<footer>
+<center>
+  <i>
+Copyright &copy; 2018 Sagar Hansalia<br>
+<a href="mailto:sdhansalia7@gmail.com">sdhansalia7@gmail.com</a>
+</center>
+</footer>
+</div>
+</body>
+</html>
